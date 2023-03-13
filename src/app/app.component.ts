@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngIntro';
+
+  postTitle!:string;
+  postDetails!:string;
+  imageUrl!:string;
+  postUrl!:string;
+  addBackground!:boolean;
 }
