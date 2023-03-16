@@ -1,9 +1,20 @@
-.form-area, .preview-area {
+.form-area, .view-area {
     margin-top: 50px;
     text-align: center;
 }
 
-.add-background {
-    background-color: yellow;
-    padding: 10px;
+.view-area {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.view-area > tr > td,
+.view-area > tr > th {
+    width: 120px;
+    text-align: center;
+}
+
+.view-area > tr > td:first-child,
+.view-area > tr > th:first-child {
+    text-align: right;
 }

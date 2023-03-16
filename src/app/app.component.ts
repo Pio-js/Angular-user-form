@@ -1,5 +1,11 @@
 import { Component } from '@angular/core';
 
+interface user {
+  username: string,
+  email: string,
+  address: string
+}
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,9 +13,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  postTitle!:string;
-  postDetails!:string;
-  imageUrl!:string;
-  postUrl!:string;
-  addBackground!:boolean;
+  fullName!:string;
+  email!:string;
+  address!:string;
+
+  userArray: user[] = [];
+
+  addNew() {
+    this.userArray.push({
+      username: this.fullName,
+      email: this.email,
+      address: this.address
+    });
+  }
+
+  deleteUser(index: number) {
+    this.userArray.splice(index, 1);
+  }
 }
