@@ -1,5 +1,8 @@
 # Angular User Form
 
+![user-form-before](https://user-images.githubusercontent.com/71008079/225715867-9a8da582-6f06-4cda-ae8a-7dd6b712f1d3.png)
+![user-form-after](https://user-images.githubusercontent.com/71008079/225715864-12fc306a-8fb1-4c28-ae12-d7000568c9f1.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 
 ## Development server
